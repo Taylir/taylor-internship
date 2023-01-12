@@ -38,8 +38,8 @@ const TopSellers = () => {
           <div className="col-md-12">
             <ol
               data-aos="fade-in"
-              data-aos-delay="100"
-              data-aos-duration="1000"
+              data-aos-delay="50"
+              data-aos-duration="400"
               className="author_list"
             >
               {!loading
