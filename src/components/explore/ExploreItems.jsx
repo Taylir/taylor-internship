@@ -5,8 +5,6 @@ import ExploreItem from "../UI/ItemInfo";
 import Skeleton from "../UI/Skeleton";
 
 const ExploreItems = () => {
-  Aos.init();
-
   const [explore, setExplore] = useState([]);
   const [loading, setLoading] = useState(false);
   const [splice, setSplice] = useState(8);

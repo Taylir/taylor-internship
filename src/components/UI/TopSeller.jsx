@@ -11,7 +11,7 @@ export default function TopSeller({ authImage, authId, authName, price }) {
         </Link>
       </div>
       <div className="author_list_info">
-        <Link to="/author">{authName}</Link>
+        <Link to={`/author/${authId}`}>{authName}</Link>
         <span>{`${price} Eth`}</span>
       </div>
     </li>
