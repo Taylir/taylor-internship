@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 import ExploreItem from "../UI/ItemInfo";
 import Skeleton from "../UI/Skeleton";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 const ExploreItems = () => {
   Aos.init();
 
