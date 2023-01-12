@@ -21,8 +21,8 @@ export default function ExploreItem({
   return (
     <div
       data-aos="fade-left"
-      data-aos-delay="250"
-      data-aos-duration="1000"
+      data-aos-delay="50"
+      data-aos-duration="400"
       className={classN && classN}
       style={styleA && styleA}
     >
